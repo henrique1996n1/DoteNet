@@ -1,0 +1,29 @@
+ static void Main(string[] args)
+        {
+            string parametro= Console.ReadLine();
+            string[] numerais=parametro.Split(' ');
+            List<double> numeros=new List<double>();
+            foreach (string numeral in numerais){
+                numeros.Add(Convert.ToDouble(numeral));
+            }
+            numeros.Sort();
+            if (numeros[0] + numeros[1] >numeros[2])   
+            {
+               double total=0;
+               foreach (double numeral in numeros){
+                total += numeral;
+                 }   
+                Console.WriteLine("Perimetro = {0:0.0}",total); //complete a saida
+
+            }
+            else
+            {
+                List<double> numerosArea=new List<double>();
+                foreach (string numeral in numerais){
+                    numerosArea.Add(Convert.ToDouble(numeral));
+                }
+                double area= (numerosArea[0] +  numerosArea[1]) *  numerosArea[2] / 2; 
+                Console.WriteLine("Area = {0:0.00}", area); //complete a saida
+
+            }
+        }
