@@ -1,14 +1,13 @@
 static void Main(string[] args) { 
 
-            int a, b, x;
-            string parametro= Console.ReadLine();
-            string[] numeros=parametro.Split(' ');
-            
-            a = Convert.ToInt32(numeros[0]);
-            b = Convert.ToInt32(numeros[1]);
+    int a, b, x;
+    string parametro= Console.ReadLine();
+    string[] numeros=parametro.Split(' ');
 
-            x = a+b ; //complete o código de acordo com o cálculo esperado
+    a = Convert.ToInt32(numeros[0]);
+    b = Convert.ToInt32(numeros[1]);
 
-            Console.WriteLine("X = {0}", x);
+    x = a+b ;
 
-         }
+    Console.WriteLine("X = {0}", x);
+}
