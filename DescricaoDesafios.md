@@ -13,13 +13,21 @@ Saída
 Imprimir a mensagem "X = " (sendo a letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Assegure que exista um espaço antes e depois do sinal de igualdade.
 
  
-Exemplos de Entrada	Exemplos de Saída
+Exemplos de Entrada	
 
-11 7                    X = 18
+11 7                    
 
--11 6                   X = -5
+-11 6                   
 
-11 -2                   X = 9
+11 -2                   
+
+Exemplos de Saída
+ 
+ X = 18
+ 
+ X = -5
+ 
+ X = 9
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #DESAFIO 2 
