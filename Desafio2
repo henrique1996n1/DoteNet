@@ -1,0 +1,16 @@
+using System;
+
+namespace Exercicios
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int tamanho =(Console.ReadLine()).Length;
+            if( tamanho <= 140 ) //complete a condicional
+                Console.WriteLine("TWEET");
+            else
+                Console.WriteLine("MUTE");
+        }
+    }
+}
