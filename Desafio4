@@ -1,0 +1,23 @@
+    static void Main(string[] args) { 
+
+      
+            double a,b,c,d;    
+            string parametro= Console.ReadLine();
+            string[] numeros=parametro.Split(' ');
+
+            a = Convert.ToDouble(numeros[0]);
+            b = Convert.ToDouble(numeros[1]);
+            c = Convert.ToDouble(numeros[2]);
+            d = Convert.ToDouble(numeros[3]);
+            
+            if ((b > c) & (d  > a) & (c+d > a +b)  &(c >= 0) & (d >= 0) & (a % 2 == 0))   
+            {
+                Console.WriteLine("Valores aceitos");
+
+            }
+            else
+            {
+                Console.WriteLine("Valores nao aceitos");
+
+            }
+    }
